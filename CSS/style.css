@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1400px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+span {
+    background-color: #add8e6;
+    padding: 10px 20px 15px 7px; 
+    border-radius: 3px;
+}
+
+.bai1, .bai2, .bai3, .bai4 {
+    width: 25%;
+    padding: 20px
+}
+
+input {
+    padding: 7px 45px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 15px;
+}
+
+.bai2, .bai3 {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-top: 20px;
+    margin-right: 60%;
+    padding: 10px 20px;
+    background-color: red;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#tinhTong {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.bai3__button {
+    margin-right: 55%;
+}
+
+.bai4__div {
+    background-color: grey;
+    padding: 10px;
+}
